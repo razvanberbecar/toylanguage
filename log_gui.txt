@@ -1,0 +1,2079 @@
+ProgramState id=1 [
+Execution Stack ={declare a as int; declare b as int; a = (2 + (3 * 5)); b = (a + 1); print(b)}
+Symbol Table= 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare a as int | declare b as int; a = (2 + (3 * 5)); b = (a + 1); print(b)}
+Symbol Table= 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare a as int | declare b as int; a = (2 + (3 * 5)); b = (a + 1); print(b)}
+Symbol Table= 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare b as int; a = (2 + (3 * 5)); b = (a + 1); print(b)}
+Symbol Table= a -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare b as int; a = (2 + (3 * 5)); b = (a + 1); print(b)}
+Symbol Table= a -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare b as int | a = (2 + (3 * 5)); b = (a + 1); print(b)}
+Symbol Table= a -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare b as int | a = (2 + (3 * 5)); b = (a + 1); print(b)}
+Symbol Table= a -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={a = (2 + (3 * 5)); b = (a + 1); print(b)}
+Symbol Table= a -> 0, b -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={a = (2 + (3 * 5)); b = (a + 1); print(b)}
+Symbol Table= a -> 0, b -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={a = (2 + (3 * 5)) | b = (a + 1); print(b)}
+Symbol Table= a -> 0, b -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={a = (2 + (3 * 5)) | b = (a + 1); print(b)}
+Symbol Table= a -> 0, b -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={b = (a + 1); print(b)}
+Symbol Table= a -> 17, b -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={b = (a + 1); print(b)}
+Symbol Table= a -> 17, b -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={b = (a + 1) | print(b)}
+Symbol Table= a -> 17, b -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={b = (a + 1) | print(b)}
+Symbol Table= a -> 17, b -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={print(b)}
+Symbol Table= a -> 17, b -> 18, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={print(b)}
+Symbol Table= a -> 17, b -> 18, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={}
+Symbol Table= a -> 17, b -> 18, 
+List Out= [18]
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare v as int; declare a as Ref(int); v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare v as int | declare a as Ref(int); v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare v as int | declare a as Ref(int); v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare a as Ref(int); v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare a as Ref(int); v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare a as Ref(int) | v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare a as Ref(int) | v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={v = 10 | new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={v = 10 | new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={new(a, 22) | fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={new(a, 22) | fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=1 [
+Execution Stack ={fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=1 [
+Execution Stack ={fork(wH(a, 30); v = 32; print(v); print(rH(a))) | print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=1 [
+Execution Stack ={fork(wH(a, 30); v = 32; print(v); print(rH(a))) | print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=2 [
+Execution Stack ={wH(a, 30); v = 32; print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=1 [
+Execution Stack ={print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=2 [
+Execution Stack ={wH(a, 30); v = 32; print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=1 [
+Execution Stack ={print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=2 [
+Execution Stack ={wH(a, 30) | v = 32; print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=1 [
+Execution Stack ={print(v) | print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=2 [
+Execution Stack ={wH(a, 30) | v = 32; print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=1 [
+Execution Stack ={print(v) | print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=2 [
+Execution Stack ={v = 32; print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= [10]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=1 [
+Execution Stack ={print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= [10]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=2 [
+Execution Stack ={v = 32; print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= [10]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=1 [
+Execution Stack ={print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= [10]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=2 [
+Execution Stack ={v = 32 | print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= [10, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=1 [
+Execution Stack ={}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= [10, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=2 [
+Execution Stack ={v = 32 | print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= [10, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=2 [
+Execution Stack ={print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 32, 
+List Out= [10, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=2 [
+Execution Stack ={print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 32, 
+List Out= [10, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=2 [
+Execution Stack ={print(v) | print(rH(a))}
+Symbol Table= a -> (1, int), v -> 32, 
+List Out= [10, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=2 [
+Execution Stack ={print(v) | print(rH(a))}
+Symbol Table= a -> (1, int), v -> 32, 
+List Out= [10, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=2 [
+Execution Stack ={print(rH(a))}
+Symbol Table= a -> (1, int), v -> 32, 
+List Out= [10, 30, 32]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=2 [
+Execution Stack ={print(rH(a))}
+Symbol Table= a -> (1, int), v -> 32, 
+List Out= [10, 30, 32]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=2 [
+Execution Stack ={}
+Symbol Table= a -> (1, int), v -> 32, 
+List Out= [10, 30, 32, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=1 [
+Execution Stack ={declare v as int; declare a as Ref(int); v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare v as int | declare a as Ref(int); v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare v as int | declare a as Ref(int); v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare a as Ref(int); v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare a as Ref(int); v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare a as Ref(int) | v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare a as Ref(int) | v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={v = 10 | new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={v = 10 | new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={new(a, 22) | fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={new(a, 22) | fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=1 [
+Execution Stack ={fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=1 [
+Execution Stack ={fork(wH(a, 30); v = 32; print(v); print(rH(a))) | print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=1 [
+Execution Stack ={fork(wH(a, 30); v = 32; print(v); print(rH(a))) | print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=2 [
+Execution Stack ={wH(a, 30); v = 32; print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=1 [
+Execution Stack ={print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=2 [
+Execution Stack ={wH(a, 30); v = 32; print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=1 [
+Execution Stack ={print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=2 [
+Execution Stack ={wH(a, 30) | v = 32; print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=1 [
+Execution Stack ={print(v) | print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=2 [
+Execution Stack ={wH(a, 30) | v = 32; print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=1 [
+Execution Stack ={print(v) | print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=2 [
+Execution Stack ={v = 32; print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= [10]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=1 [
+Execution Stack ={print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= [10]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=2 [
+Execution Stack ={v = 32; print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= [10]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=1 [
+Execution Stack ={print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= [10]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=2 [
+Execution Stack ={v = 32 | print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= [10, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=1 [
+Execution Stack ={}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= [10, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=2 [
+Execution Stack ={v = 32 | print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= [10, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=2 [
+Execution Stack ={print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 32, 
+List Out= [10, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=2 [
+Execution Stack ={print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 32, 
+List Out= [10, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=2 [
+Execution Stack ={print(v) | print(rH(a))}
+Symbol Table= a -> (1, int), v -> 32, 
+List Out= [10, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=2 [
+Execution Stack ={print(v) | print(rH(a))}
+Symbol Table= a -> (1, int), v -> 32, 
+List Out= [10, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=2 [
+Execution Stack ={print(rH(a))}
+Symbol Table= a -> (1, int), v -> 32, 
+List Out= [10, 30, 32]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=2 [
+Execution Stack ={print(rH(a))}
+Symbol Table= a -> (1, int), v -> 32, 
+List Out= [10, 30, 32]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=2 [
+Execution Stack ={}
+Symbol Table= a -> (1, int), v -> 32, 
+List Out= [10, 30, 32, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=1 [
+Execution Stack ={declare a as int; declare b as int; a = (2 + (3 * 5)); b = (a + 1); print(b)}
+Symbol Table= 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare a as int | declare b as int; a = (2 + (3 * 5)); b = (a + 1); print(b)}
+Symbol Table= 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare a as int | declare b as int; a = (2 + (3 * 5)); b = (a + 1); print(b)}
+Symbol Table= 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare b as int; a = (2 + (3 * 5)); b = (a + 1); print(b)}
+Symbol Table= a -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare b as int; a = (2 + (3 * 5)); b = (a + 1); print(b)}
+Symbol Table= a -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare b as int | a = (2 + (3 * 5)); b = (a + 1); print(b)}
+Symbol Table= a -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare b as int | a = (2 + (3 * 5)); b = (a + 1); print(b)}
+Symbol Table= a -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={a = (2 + (3 * 5)); b = (a + 1); print(b)}
+Symbol Table= a -> 0, b -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={a = (2 + (3 * 5)); b = (a + 1); print(b)}
+Symbol Table= a -> 0, b -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={a = (2 + (3 * 5)) | b = (a + 1); print(b)}
+Symbol Table= a -> 0, b -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={a = (2 + (3 * 5)) | b = (a + 1); print(b)}
+Symbol Table= a -> 0, b -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={b = (a + 1); print(b)}
+Symbol Table= a -> 17, b -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={b = (a + 1); print(b)}
+Symbol Table= a -> 17, b -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={b = (a + 1) | print(b)}
+Symbol Table= a -> 17, b -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={b = (a + 1) | print(b)}
+Symbol Table= a -> 17, b -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={print(b)}
+Symbol Table= a -> 17, b -> 18, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={print(b)}
+Symbol Table= a -> 17, b -> 18, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={}
+Symbol Table= a -> 17, b -> 18, 
+List Out= [18]
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare a as int; declare b as int; a = (2 + (3 * 5)); b = (a + 1); print(b)}
+Symbol Table= 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare a as int | declare b as int; a = (2 + (3 * 5)); b = (a + 1); print(b)}
+Symbol Table= 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare a as int | declare b as int; a = (2 + (3 * 5)); b = (a + 1); print(b)}
+Symbol Table= 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare b as int; a = (2 + (3 * 5)); b = (a + 1); print(b)}
+Symbol Table= a -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare b as int; a = (2 + (3 * 5)); b = (a + 1); print(b)}
+Symbol Table= a -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare b as int | a = (2 + (3 * 5)); b = (a + 1); print(b)}
+Symbol Table= a -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare b as int | a = (2 + (3 * 5)); b = (a + 1); print(b)}
+Symbol Table= a -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={a = (2 + (3 * 5)); b = (a + 1); print(b)}
+Symbol Table= a -> 0, b -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={a = (2 + (3 * 5)); b = (a + 1); print(b)}
+Symbol Table= a -> 0, b -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={a = (2 + (3 * 5)) | b = (a + 1); print(b)}
+Symbol Table= a -> 0, b -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={a = (2 + (3 * 5)) | b = (a + 1); print(b)}
+Symbol Table= a -> 0, b -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={b = (a + 1); print(b)}
+Symbol Table= a -> 17, b -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={b = (a + 1); print(b)}
+Symbol Table= a -> 17, b -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={b = (a + 1) | print(b)}
+Symbol Table= a -> 17, b -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={b = (a + 1) | print(b)}
+Symbol Table= a -> 17, b -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={print(b)}
+Symbol Table= a -> 17, b -> 18, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={print(b)}
+Symbol Table= a -> 17, b -> 18, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={}
+Symbol Table= a -> 17, b -> 18, 
+List Out= [18]
+File Table= 
+Heap= ]
+
+ProgramState id=2 [
+Execution Stack ={declare v as int; declare a as Ref(int); v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=2 [
+Execution Stack ={declare v as int | declare a as Ref(int); v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=2 [
+Execution Stack ={declare v as int | declare a as Ref(int); v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=2 [
+Execution Stack ={declare a as Ref(int); v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=2 [
+Execution Stack ={declare a as Ref(int); v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=2 [
+Execution Stack ={declare a as Ref(int) | v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=2 [
+Execution Stack ={declare a as Ref(int) | v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=2 [
+Execution Stack ={v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=2 [
+Execution Stack ={v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=2 [
+Execution Stack ={v = 10 | new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=2 [
+Execution Stack ={v = 10 | new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=2 [
+Execution Stack ={new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=2 [
+Execution Stack ={new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=2 [
+Execution Stack ={new(a, 22) | fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=2 [
+Execution Stack ={new(a, 22) | fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=2 [
+Execution Stack ={fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=2 [
+Execution Stack ={fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=2 [
+Execution Stack ={fork(wH(a, 30); v = 32; print(v); print(rH(a))) | print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=2 [
+Execution Stack ={fork(wH(a, 30); v = 32; print(v); print(rH(a))) | print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=3 [
+Execution Stack ={wH(a, 30); v = 32; print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=2 [
+Execution Stack ={print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=3 [
+Execution Stack ={wH(a, 30); v = 32; print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=2 [
+Execution Stack ={print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=3 [
+Execution Stack ={wH(a, 30) | v = 32; print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=2 [
+Execution Stack ={print(v) | print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=3 [
+Execution Stack ={wH(a, 30) | v = 32; print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=2 [
+Execution Stack ={print(v) | print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=3 [
+Execution Stack ={v = 32; print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= [10]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=2 [
+Execution Stack ={print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= [10]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=3 [
+Execution Stack ={v = 32; print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= [10]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=2 [
+Execution Stack ={print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= [10]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=3 [
+Execution Stack ={v = 32 | print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= [10, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=2 [
+Execution Stack ={}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= [10, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=3 [
+Execution Stack ={v = 32 | print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= [10, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=3 [
+Execution Stack ={print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 32, 
+List Out= [10, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=3 [
+Execution Stack ={print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 32, 
+List Out= [10, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=3 [
+Execution Stack ={print(v) | print(rH(a))}
+Symbol Table= a -> (1, int), v -> 32, 
+List Out= [10, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=3 [
+Execution Stack ={print(v) | print(rH(a))}
+Symbol Table= a -> (1, int), v -> 32, 
+List Out= [10, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=3 [
+Execution Stack ={print(rH(a))}
+Symbol Table= a -> (1, int), v -> 32, 
+List Out= [10, 30, 32]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=3 [
+Execution Stack ={print(rH(a))}
+Symbol Table= a -> (1, int), v -> 32, 
+List Out= [10, 30, 32]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=3 [
+Execution Stack ={}
+Symbol Table= a -> (1, int), v -> 32, 
+List Out= [10, 30, 32, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=4 [
+Execution Stack ={declare v as int; v = 2; print(v)}
+Symbol Table= 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=4 [
+Execution Stack ={declare v as int | v = 2; print(v)}
+Symbol Table= 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=4 [
+Execution Stack ={declare v as int | v = 2; print(v)}
+Symbol Table= 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=4 [
+Execution Stack ={v = 2; print(v)}
+Symbol Table= v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=4 [
+Execution Stack ={v = 2; print(v)}
+Symbol Table= v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=4 [
+Execution Stack ={v = 2 | print(v)}
+Symbol Table= v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=4 [
+Execution Stack ={v = 2 | print(v)}
+Symbol Table= v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=4 [
+Execution Stack ={print(v)}
+Symbol Table= v -> 2, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=4 [
+Execution Stack ={print(v)}
+Symbol Table= v -> 2, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=4 [
+Execution Stack ={}
+Symbol Table= v -> 2, 
+List Out= [2]
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare a as int; declare b as int; a = (2 + (3 * 5)); b = (a + 1); print(b)}
+Symbol Table= 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare a as int | declare b as int; a = (2 + (3 * 5)); b = (a + 1); print(b)}
+Symbol Table= 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare a as int | declare b as int; a = (2 + (3 * 5)); b = (a + 1); print(b)}
+Symbol Table= 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare b as int; a = (2 + (3 * 5)); b = (a + 1); print(b)}
+Symbol Table= a -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare b as int; a = (2 + (3 * 5)); b = (a + 1); print(b)}
+Symbol Table= a -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare b as int | a = (2 + (3 * 5)); b = (a + 1); print(b)}
+Symbol Table= a -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare b as int | a = (2 + (3 * 5)); b = (a + 1); print(b)}
+Symbol Table= a -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={a = (2 + (3 * 5)); b = (a + 1); print(b)}
+Symbol Table= a -> 0, b -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={a = (2 + (3 * 5)); b = (a + 1); print(b)}
+Symbol Table= a -> 0, b -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={a = (2 + (3 * 5)) | b = (a + 1); print(b)}
+Symbol Table= a -> 0, b -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={a = (2 + (3 * 5)) | b = (a + 1); print(b)}
+Symbol Table= a -> 0, b -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={b = (a + 1); print(b)}
+Symbol Table= a -> 17, b -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={b = (a + 1); print(b)}
+Symbol Table= a -> 17, b -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={b = (a + 1) | print(b)}
+Symbol Table= a -> 17, b -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={b = (a + 1) | print(b)}
+Symbol Table= a -> 17, b -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={print(b)}
+Symbol Table= a -> 17, b -> 18, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={print(b)}
+Symbol Table= a -> 17, b -> 18, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={}
+Symbol Table= a -> 17, b -> 18, 
+List Out= [18]
+File Table= 
+Heap= ]
+
+ProgramState id=2 [
+Execution Stack ={declare v as int; declare a as Ref(int); v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=2 [
+Execution Stack ={declare v as int | declare a as Ref(int); v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=2 [
+Execution Stack ={declare v as int | declare a as Ref(int); v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=2 [
+Execution Stack ={declare a as Ref(int); v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=2 [
+Execution Stack ={declare a as Ref(int); v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=2 [
+Execution Stack ={declare a as Ref(int) | v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=2 [
+Execution Stack ={declare a as Ref(int) | v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=2 [
+Execution Stack ={v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=2 [
+Execution Stack ={v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=2 [
+Execution Stack ={v = 10 | new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=2 [
+Execution Stack ={v = 10 | new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=2 [
+Execution Stack ={new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=2 [
+Execution Stack ={new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=2 [
+Execution Stack ={new(a, 22) | fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=2 [
+Execution Stack ={new(a, 22) | fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=2 [
+Execution Stack ={fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=2 [
+Execution Stack ={fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=2 [
+Execution Stack ={fork(wH(a, 30); v = 32; print(v); print(rH(a))) | print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=2 [
+Execution Stack ={fork(wH(a, 30); v = 32; print(v); print(rH(a))) | print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=3 [
+Execution Stack ={wH(a, 30); v = 32; print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=2 [
+Execution Stack ={print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=3 [
+Execution Stack ={wH(a, 30); v = 32; print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=2 [
+Execution Stack ={print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=3 [
+Execution Stack ={wH(a, 30) | v = 32; print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=2 [
+Execution Stack ={print(v) | print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=3 [
+Execution Stack ={wH(a, 30) | v = 32; print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=2 [
+Execution Stack ={print(v) | print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=3 [
+Execution Stack ={v = 32; print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= [10]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=2 [
+Execution Stack ={print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= [10]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=3 [
+Execution Stack ={v = 32; print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= [10]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=2 [
+Execution Stack ={print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= [10]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=3 [
+Execution Stack ={v = 32 | print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= [10, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=2 [
+Execution Stack ={}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= [10, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=3 [
+Execution Stack ={v = 32 | print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= [10, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=3 [
+Execution Stack ={print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 32, 
+List Out= [10, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=3 [
+Execution Stack ={print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 32, 
+List Out= [10, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=3 [
+Execution Stack ={print(v) | print(rH(a))}
+Symbol Table= a -> (1, int), v -> 32, 
+List Out= [10, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=3 [
+Execution Stack ={print(v) | print(rH(a))}
+Symbol Table= a -> (1, int), v -> 32, 
+List Out= [10, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=3 [
+Execution Stack ={print(rH(a))}
+Symbol Table= a -> (1, int), v -> 32, 
+List Out= [10, 30, 32]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=3 [
+Execution Stack ={print(rH(a))}
+Symbol Table= a -> (1, int), v -> 32, 
+List Out= [10, 30, 32]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=3 [
+Execution Stack ={}
+Symbol Table= a -> (1, int), v -> 32, 
+List Out= [10, 30, 32, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=4 [
+Execution Stack ={declare v as int; v = 2; print(v)}
+Symbol Table= 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=4 [
+Execution Stack ={declare v as int | v = 2; print(v)}
+Symbol Table= 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=4 [
+Execution Stack ={declare v as int | v = 2; print(v)}
+Symbol Table= 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=4 [
+Execution Stack ={v = 2; print(v)}
+Symbol Table= v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=4 [
+Execution Stack ={v = 2; print(v)}
+Symbol Table= v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=4 [
+Execution Stack ={v = 2 | print(v)}
+Symbol Table= v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=4 [
+Execution Stack ={v = 2 | print(v)}
+Symbol Table= v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=4 [
+Execution Stack ={print(v)}
+Symbol Table= v -> 2, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=4 [
+Execution Stack ={print(v)}
+Symbol Table= v -> 2, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=4 [
+Execution Stack ={}
+Symbol Table= v -> 2, 
+List Out= [2]
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare v as int; declare a as Ref(int); v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare v as int | declare a as Ref(int); v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare v as int | declare a as Ref(int); v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare a as Ref(int); v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare a as Ref(int); v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare a as Ref(int) | v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={declare a as Ref(int) | v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={v = 10; new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={v = 10 | new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={v = 10 | new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 0, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={new(a, 22); fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={new(a, 22) | fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={new(a, 22) | fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (0, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= ]
+
+ProgramState id=1 [
+Execution Stack ={fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=1 [
+Execution Stack ={fork(wH(a, 30); v = 32; print(v); print(rH(a))); print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=1 [
+Execution Stack ={fork(wH(a, 30); v = 32; print(v); print(rH(a))) | print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=1 [
+Execution Stack ={fork(wH(a, 30); v = 32; print(v); print(rH(a))) | print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=2 [
+Execution Stack ={wH(a, 30); v = 32; print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=1 [
+Execution Stack ={print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=2 [
+Execution Stack ={wH(a, 30); v = 32; print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=1 [
+Execution Stack ={print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=2 [
+Execution Stack ={wH(a, 30) | v = 32; print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=1 [
+Execution Stack ={print(v) | print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=2 [
+Execution Stack ={wH(a, 30) | v = 32; print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=1 [
+Execution Stack ={print(v) | print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= []
+File Table= 
+Heap= 1 -> 22, ]
+
+ProgramState id=2 [
+Execution Stack ={v = 32; print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= [10]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=1 [
+Execution Stack ={print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= [10]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=2 [
+Execution Stack ={v = 32; print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= [10]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=1 [
+Execution Stack ={print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= [10]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=2 [
+Execution Stack ={v = 32 | print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= [10, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=1 [
+Execution Stack ={}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= [10, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=2 [
+Execution Stack ={v = 32 | print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 10, 
+List Out= [10, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=2 [
+Execution Stack ={print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 32, 
+List Out= [10, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=2 [
+Execution Stack ={print(v); print(rH(a))}
+Symbol Table= a -> (1, int), v -> 32, 
+List Out= [10, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=2 [
+Execution Stack ={print(v) | print(rH(a))}
+Symbol Table= a -> (1, int), v -> 32, 
+List Out= [10, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=2 [
+Execution Stack ={print(v) | print(rH(a))}
+Symbol Table= a -> (1, int), v -> 32, 
+List Out= [10, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=2 [
+Execution Stack ={print(rH(a))}
+Symbol Table= a -> (1, int), v -> 32, 
+List Out= [10, 30, 32]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=2 [
+Execution Stack ={print(rH(a))}
+Symbol Table= a -> (1, int), v -> 32, 
+List Out= [10, 30, 32]
+File Table= 
+Heap= 1 -> 30, ]
+
+ProgramState id=2 [
+Execution Stack ={}
+Symbol Table= a -> (1, int), v -> 32, 
+List Out= [10, 30, 32, 30]
+File Table= 
+Heap= 1 -> 30, ]
+
